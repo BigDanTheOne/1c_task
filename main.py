@@ -115,6 +115,7 @@ def find_neighbors(current_state : State):
 
 def solve(start, finish):
     to_consider = set()
+    # current_state = SortedSet() TODO
     was_considered = set()
     cost = dict()
     heuristic = dict()
